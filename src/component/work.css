@@ -1,0 +1,76 @@
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(80%);
+    }
+}
+
+@keyframes ngilang {
+    0% {
+        opacity:1;
+    }
+
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes muncul {
+    0% {
+        opacity:0;
+    }
+
+    100% {
+        opacity:1;
+    }
+}
+
+#giff {
+    animation: slideInFromLeft 2s ease-in-out 2s forwards;
+}
+
+#bio {
+    animation: ngilang 2s ease-in forwards ;
+}
+
+#logoo {
+    animation: ngilang 2s ease-in forwards ;
+}
+
+#yuai{
+    opacity: 0;
+    animation: muncul 2s ease-in-out 3s forwards;
+}
+#mosien{
+    opacity: 0;
+    animation: muncul 2s ease-in-out 3.5s forwards;
+}
+#simor{
+    opacity: 0;
+    animation: muncul 2s ease-in-out 3.8s forwards;
+}
+
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(46, 46, 46), rgb(92, 92, 92))
+}
+
+.link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%
+}
+
+.aaa{
+    z-index: 100;
+}

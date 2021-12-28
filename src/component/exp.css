@@ -1,0 +1,31 @@
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-90%);
+    }
+}
+
+@keyframes ngilang {
+    0% {
+        opacity:1;
+    }
+
+    100% {
+        opacity:0;
+    }
+}
+
+#giff2 {
+    animation: slideInFromRight 2s ease-in-out 2s forwards;
+}
+
+#bio {
+    animation: ngilang 2s ease-in forwards ;
+}
+
+#logoo {
+    animation: ngilang 2s ease-in forwards ;
+}
