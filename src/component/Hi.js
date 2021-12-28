@@ -25,7 +25,7 @@ const Hi = () => {
           id="giff3"
         />
       </div>
-      <p className="w-8/12 fixed z-30 translate-y-36" id="bioku">
+      <p className="w-8/12 fixed z-30 translate-y-36 text-sm lg:text-base" id="bioku">
         i'm <strong>Arkan Aulia</strong>, Visual artist, graphic-motion
         designer, user interface designer and programmer from Indonesia with a
         demonstrated history of working in design industry. Skilled in Motion
@@ -34,7 +34,7 @@ const Hi = () => {
         Informatics from Institut Teknologi Sepuluh Nopember Surabaya.
       </p>
 
-        <div class="fixed text-gray-300 bottom-52 w-max h-max z-50" id="imel">
+        <div class="fixed text-gray-300 translate-y-3 lg:translate-y-56  w-max h-max z-50" id="imel">
           <a
             href="mailto:arkanaulia@gmail.com"
             class="button button--winona p-0 bg-gray-800 hover:bg-gray-700 hover:text-white relative block focus:outline-none border-2 border-solid rounded-lg text-xs text-center font-semibold uppercase tracking-widest align-middle overflow-hidden z-50"

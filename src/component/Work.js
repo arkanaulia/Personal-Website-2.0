@@ -43,7 +43,7 @@ const Work = () => {
             className="flex-col text-left space-y-5 lg:ml-10 w-96"
             id="mosien"
           >
-            <h1 className="aaa lg:text-4xl text-3xl mb-8 font-semibold">
+            <h1 className="aaa lg:text-4xl text-3xl mb-8 font-semibold w-80">
               Motion & Artwork
             </h1>
             <h3 className="aaa lg:text-xl link link-underline link-underline-black text-black w-max">
@@ -65,7 +65,7 @@ const Work = () => {
         </div>
         <a href="https://arkanaulia.wixsite.com/portofolio">
           <h1
-            className="fixed right-16 bottom-36 text-lg text-gray-500 lg:left-20 lg:bottom-60 hover:underline hover:text-black"
+            className="fixed right-16 -translate-y-20 text-lg text-gray-500 lg:left-20 lg:translate-y-48 hover:underline hover:text-black"
             id="simor"
           >
             see more.
